@@ -1,0 +1,11 @@
+development:
+  dialect: postgres
+  datasource: host=localhost port=9999 dbname=go_backend user=postgres password=Hoang33034477 sslmode=disable
+  dir: migrations
+  table: migrations
+
+production:
+  dialect: postgres
+  datasource: host=localhost port=9999 dbname=go_backend user=postgres password=Hoang33034477 sslmode=disable
+  dir: migrations
+  table: migrations
